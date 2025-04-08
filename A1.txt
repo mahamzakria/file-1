@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Site - Your Adventure Starts Here</title>
+    <style>
+        /* Basic Reset to ensure consistent styling across browsers */
+        body {
+            font-family: sans-serif;
+            margin: 0; /* Remove default body margins */
+            line-height: 1.6; /* Improve text readability */
+            background-color: #f4f4f4; /* Light gray background for the whole page */
+            color: #333; /* Dark gray main text color */
+        }
+
+        /* Styling for the main header section */
+        header {
+            background: #5cb85c; /* A nice green color for the header */
+            color: white; /* White text on the green background */
+            padding: 40px 20px; /* Top/bottom padding 40px, left/right 20px */
+            text-align: center; /* Center the content within the header */
+        }
+
+        header h1 {
+            margin: 0; /* Remove default heading margins */
+            font-size: 2.5em; /* Larger font size for the main title */
+            margin-bottom: 10px; /* Add some space below the title */
+        }
+
+        header p {
+            font-size: 1.2em; /* Slightly larger paragraph text */
+            font-style: italic; /* Make the tagline italic */
+            color: #f0f8f0; /* Light color for the tagline */
+        }
+
+        /* Styling for the navigation menu */
+        nav {
+            background: #333; /* Dark background for the navigation */
+            padding: 15px 20px; /* Padding for the navigation bar */
+            text-align: center; /* Center the navigation links */
+        }
+
+        nav a {
+            color: white; /* White text for the links */
+            text-decoration: none; /* Remove underlines from links */
+            margin: 0 15px; /* Spacing between the links */
+            font-weight: bold; /* Make the link text bold */
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+
+        nav a:hover {
+            color: #5cb85c; /* Change link color on hover */
+        }
+
+        /* Styling for the main content area */
+        .content {
+            padding: 30px 20px; /* Padding around the main content */
+            background-color: white; /* White background for the content area */
+            border-radius: 8px; /* Slightly rounded corners for the content box */
+            margin: 20px; /* Margin around the content box */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        .content h2 {
+            color: #333; /* Dark gray heading color */
+            border-bottom: 2px solid #5cb85c; /* Green underline for the heading */
+            padding-bottom: 10px; /* Space below the underline */
+            margin-bottom: 20px; /* Space below the heading */
+        }
+
+        .content img {
+            max-width: 2000%; /* Make the image responsive */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Prevent extra space below the image */
+            margin: 50px auto; /* Center the image with top/bottom margin */
+            border-radius: 5px; /* Slightly rounded corners for the image */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+            width: 30%;
+        }
+
+        .content p {
+            line-height: 1.8; /* Improve paragraph text readability */
+            margin-bottom: 15px; /* Space between paragraphs */
+        }
+
+        .call-to-action {
+            text-align: center; /* Center the call to action button */
+            margin-top: 30px; /* Space above the button */
+        }
+
+        .call-to-action a {
+            display: inline-block; /* Allows setting padding and margins */
+            background-color: #007bff; /* Blue color for the button */
+            color: white; /* White text on the button */
+            padding: 12px 25px; /* Padding inside the button */
+            text-decoration: none; /* Remove underline from the button link */
+            border-radius: 5px; /* Rounded corners for the button */
+            font-weight: bold; /* Bold button text */
+            transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+        }
+
+        .call-to-action a:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333; /* Dark background for the footer */
+            color: white; /* White text in the footer */
+            text-align: center; /* Center the footer text */
+            padding: 20px; /* Padding for the footer */
+            font-size: 0.9em; /* Slightly smaller font size for the footer text */
+            margin-top: 30px; /* Add some space above the footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Next Adventure Awaits</h1>
+        <p>Discover the world with our amazing travel packages.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Deals</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>Featured Destination: Paradise Island</h2>
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/a4/6d/53/land-of-paradise-beach.jpg?w=700&h=-1&s=1" alt="travel pic">
+                <p> breathtaking shores of Paradise Island. With its pristine beaches, crystal-clear waters, and lush tropical landscapes, it's the perfect getaway for relaxation and adventure.</p>
+        <p>Imagine waking up to the sound of gentle waves, spending your days exploring vibrant coral reefs, and indulging in delicious local cuisine. Paradise Island offers something for everyone, from romantic escapes to fun-filled family vacations.</p>
+
+        <div class="call-to-action">
+            <a href="#">Explore Our Packages to Paradise Island</a>
+        </div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations - Explore the World</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007bff; /* Blue header */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .destination-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .destination-card img {
+            width: 50%;
+            height: 300px;
+            object-fit: cover;
+            
+        }
+
+        .destination-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .destination-info h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .destination-info p {
+            color: #666;
+        }
+
+        .view-details-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .view-details-btn:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Our Amazing Destinations</h1>
+        <p>Discover incredible places around the globe.</p>
+    </header>
+
+    <div class="destinations-grid">
+        <div class="destination-card">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/pont-alexandre-iii-sunset-royalty-free-image-1575587540.jpg?crop=0.66369xw:1xh;center,top&resize=980:*" alt="Paris">
+            <div class="destination-info">
+                <h3>Paris, France</h3>
+                <p>The city of lights, romance, and iconic landmarks.</p>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDEorrM_BVm2sUWK0UFmYWCF0PgwjlrO51g&s" alt="tokyo">
+            <div class="destination-info">
+                <h3>tokyo, Peru</h3>
+                <p>Explore the lost city of the Incas high in the Andes Mountains.</p>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://ik.imagekit.io/tvlk/blog/2024/07/shutterstock_2324082951.jpg" alt="Bali">
+            <div class="destination-info">
+                <h3>Bali, Indonesia</h3>
+                <p>Tropical paradise with stunning beaches, rice paddies, and vibrant culture.</p>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="https://res.cloudinary.com/enchanting/q_70,f_auto,w_600,h_400,c_fit/ymt-web/2023/01/600x400-Santorini20Greece20Sunset.jpg" alt="Santorini">
+            <div class="destination-info">
+                <h3>Santorini, Greece</h3>
+                <p>Iconic white-washed villages perched on volcanic cliffs overlooking the Aegean Sea.</p>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        <div class="destination-card"></div>
+            <img src="https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_3840,g_auto/f_auto/q_auto/v1/shutterstock_329662223_ss_non-editorial_3_csm8lw?_a=BAVAZGDX0 " alt="new york">
+            <div class="destination-info">
+                <h4> new york </h4>
+                <p> its a very beautiful country and  landmarks and endless opportunities.</p>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
